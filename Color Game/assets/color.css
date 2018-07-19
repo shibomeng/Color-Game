@@ -1,0 +1,78 @@
+body {
+	background: #232323;
+	font-family: Coda Caption:800;
+}
+
+.square {
+	padding-top: 27%;
+	width: 30%;
+	margin: 1.66%;
+	background: pink;
+	float: left;
+	border-radius: 15%;
+}
+
+.container {
+	max-width: 600px;
+}
+
+.jumbotron {
+	padding-top: 1px;		
+	/*padding-bottom: 5px;*/
+	margin-bottom: 0;
+	height: 150px;
+	background: #4f8dbc;
+}
+
+.jumbotron h1 {
+	color: #e8ecf7;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+h2 {
+	margin-top: 5px;
+	margin-bottom: 0px;
+	color: #e8ecf7;
+	text-align: center;
+}
+
+nav {
+	height: 10px;
+}
+
+.navbar-nav {
+	float: right;
+}
+
+#EASY {
+	padding-right: 10px;
+}	
+
+#NEW, #EASY {
+	font-size: 20px;
+	font-weight: 800;
+	color: #4f8dbc;		
+}
+
+#HARD {
+	color: #ffffff;
+	background: #4f8dbc; 
+	font-size: 20px;
+	font-weight: 800;
+}
+
+.nav>li>a {
+	height: 50px;
+}
+
+.navbar-default {
+    background-color: #ffffff;
+    border-color: #e7e7e7;
+    border-top: 0;	
+    border-radius: 0;
+}	
